@@ -19,7 +19,7 @@ EOF;
        KEYWORDS 	TEXT
       );
 EOF;
-	$db->exec($sql_delete_table);
+    $db->exec($sql_delete_table);
     $ret = $db->exec($sql_create_table);
     $db->close();
 ?>
